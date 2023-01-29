@@ -21,19 +21,19 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#member">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#info">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#contact">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,7 @@
         />
         -->
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#info">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -58,7 +58,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -141,7 +141,7 @@
           <!-- Start creating the composition here -->
         </section>
 
-        <section class="staff">
+        <section class="staff" id="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__content">
@@ -216,7 +216,7 @@
           -->
         </section>
 
-        <section class="membership">
+        <section class="membership" id="member">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -273,7 +273,7 @@
           -->
         </section>
 
-        <section class="about">
+        <section class="about" id="info">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -298,10 +298,43 @@
           -->
         </section>
       </main>
-      <footer class="footer">
-        <!-- -------------------------------------------------------------------->
-        <!--          Don't uncomment until the final project stage            -->
-        <!-- -------------------------------------------------------------------->
+      <footer class="footer" id="contact">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <h1 class="footer__logo">Practicum</h1>
+            <p class="footer__copyright">© 2023 Esteban Loza</p>
+          </div>
+          <div class="footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekday: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
