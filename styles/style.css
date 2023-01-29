@@ -70,7 +70,7 @@
   z-index: 1;
   max-width: 636px;
   position: absolute;
-  top: 136px;
+  top: 135px;
   right: 20px;
 }
 
@@ -266,7 +266,7 @@
   color: #fff;
 }
 
-.staff__content {
+.staff__cards {
   max-width: 760px;
   margin: 69px auto 0;
   display: flex;
