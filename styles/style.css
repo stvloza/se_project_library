@@ -409,7 +409,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000;
+  background-color: #1f1f1f;
   z-index: 0;
   color: #fff;
   padding: 60px 182px 60px 80px;
@@ -419,6 +419,7 @@
 
 .footer__columns {
   display: flex;
+  align-items: baseline;
 }
 
 .footer__column_content_hours {
@@ -432,7 +433,6 @@
 .footer__logo {
   width: 116px;
   height: 21px;
-  margin-top: 0;
 }
 
 .footer__list {
@@ -447,7 +447,7 @@
 }
 
 .footer__column-heading {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -457,13 +457,16 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 .footer__copyright {
-  margin-top: 112px;
-  margin-bottom: 0;
+  margin: 80px 0 0 0;
 }
