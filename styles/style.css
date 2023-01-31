@@ -449,6 +449,8 @@
   line-height: 20px;
   text-decoration: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__column-link:hover {
